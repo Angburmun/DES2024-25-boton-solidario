@@ -1,0 +1,13 @@
+/* start Pixel 9 Pro css values*/
+body.androidpixel9pro #jim-mobile { position:relative; top:0px; left:0px; width:468px; height:990px; margin:auto; }
+body.androidpixel9pro #jim-case { background-image: url("../../../../../images/mobile/android/android12/pixel9pro@2x.png"); height:990px; width:468px; background-size:100% auto; z-index:100; /*must be over keyboards and comment bubbles*/ position:absolute; pointer-events:none; }
+body.androidpixel9pro #jim-mobile #simulation { position: relative; height: 100%; overflow:hidden; }
+body.androidpixel9pro #jim-mobile .ui-page { overflow:hidden; }
+
+/* orientation values */
+body.androidpixel9pro #jim-mobile.landscape { height:468px; width:990px; }
+body.androidpixel9pro #jim-case.portrait { transform:rotate(0deg); transform-origin:auto; }
+body.androidpixel9pro #jim-case.landscape { top:7px; left:0px; transform:rotate(-90deg); transform-origin:56% 22.95% 0; }
+body.androidpixel9pro #jim-container { clip-path: inset(0px round 50px); }
+body.androidpixel9pro #jim-container.portrait { position: absolute; top: 20px; left: 19px; width: 427px; height: 952px; }
+body.androidpixel9pro #jim-container.landscape { position: absolute; top: 20px; left: 25px; width: 952px; height: 427px; }

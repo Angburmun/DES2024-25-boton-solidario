@@ -1,0 +1,32 @@
+#s-61500238-cb2f-4995-97c7-7f4e1c36be94 > #backgroundBox {
+  position: absolute;
+}
+#s-61500238-cb2f-4995-97c7-7f4e1c36be94 > #alignmentBox {
+  position: relative;
+}
+#s-61500238-cb2f-4995-97c7-7f4e1c36be94 #s-Image_1 {
+  position: absolute;
+  width: 1366.0px;
+  height: 768.0px;
+  -webkit-transform: rotate(0.0deg);
+  -moz-transform: rotate(0.0deg);
+  transform: rotate(0.0deg);
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+}
+.devMobile #jim-container .ui-page {
+  overflow-x: hidden;
+}
+.non_jim_mobile #simulation {
+  overflow-x: hidden;
+}
+.web #simulation {
+  overflow-x: hidden;
+}
+#s-61500238-cb2f-4995-97c7-7f4e1c36be94 > #loadMark {
+  width: 1px;
+  visibility: hidden;
+  display: none;
+}
